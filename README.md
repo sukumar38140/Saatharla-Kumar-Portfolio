@@ -1,32 +1,32 @@
-# React + TypeScript + Vite
+# Saatharla-Kumar-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personalized Cinematic React + TypeScript + Vite portfolio for **Saatharla Kumar** (Full Stack Developer & React Developer).
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Cinematic Aesthetic**: Dark luxury styling, video hero background, glassmorphism, Framer Motion micro-animations, and Lenis smooth scrolling.
+- **ScrollStack Project Deck**: Showcase of 8 flagship & client projects with interactive metrics cards.
+- **Architectural Skill Matrix**: Bento grid categorizing Frontend Architecture, Backend & REST APIs, Database Platforms, and DevOps/QA.
+- **Experience Timeline**: Interactive journey covering software engineering roles, open source contributions, and 4-stage education path (MCA, BCA, MPC, SSC).
+- **Accolades & Leadership**: Dedicated bento grid for MoE/AICTE Innovation Ambassador certification, Microsoft & NPTEL credentials, 1st prize awards, and technical workshop leadership.
+- **Direct Dispatch Contact**: Responsive contact terminal with direct email, phone, location, and social links.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend**: React 19, TypeScript, Framer Motion, Lenis Scroll, Tailwind CSS
+- **Build Tool**: Vite 6
+- **Deployment**: Vercel Ready (`vercel.json` SPA configuration included)
 
-## React Compiler
+## 💻 Local Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Clone the repository
+git clone https://github.com/sukumar38140/Saatharla-Kumar-Portfolio.git
 
-## Expanding the Oxlint configuration
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+# Start local dev server
+npm run dev
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+# Build for production
+npm run build
 ```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.

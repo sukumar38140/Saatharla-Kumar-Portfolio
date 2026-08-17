@@ -32,6 +32,7 @@ const navItems = [
   { name: 'PROJECTS', href: '#work' },
   { name: 'SKILLS', href: '#skills' },
   { name: 'EXPERIENCE', href: '#experience' },
+  { name: 'ACCOLADES', href: '#accolades' },
   { name: 'CONTACT', href: '#contact' },
 ];
 
@@ -71,13 +72,14 @@ export const HeroSection: React.FC = () => {
           muted
           loop
           playsInline
-          className="h-screen w-auto max-w-none object-contain origin-right scale-95 md:scale-[0.98] lg:scale-100"
+          className="w-full h-full object-cover object-[85%_top] md:object-[90%_top] opacity-85"
         >
-          <source src="/videos/hero.mp4" type="video/mp4" />
+          <source src="/videos/hero1.mp4" type="video/mp4" />
         </video>
 
-        {/* Seamless Soft Left Edge Blend */}
-        <div className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-black via-black/85 to-transparent pointer-events-none" />
+        {/* Seamless Vignette & Left Gradient Overlay for Text Contrast */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-black/30 pointer-events-none" />
 
         {/* ================= 3. ANIMATED WATERMARK EMBLEM ================= */}
         <div className="absolute bottom-6 right-6 lg:bottom-10 lg:right-12 pointer-events-none flex items-center justify-center z-10">
@@ -118,7 +120,7 @@ export const HeroSection: React.FC = () => {
             className="text-xs sm:text-sm font-semibold tracking-[0.35em] uppercase text-[#EAD8C7] hover:opacity-75 transition-opacity"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
-            LOHITHA.
+            SAATHARLA KUMAR.
           </a>
 
           {/* Navigation Links */}
@@ -194,7 +196,7 @@ export const HeroSection: React.FC = () => {
                 className="text-[10px] sm:text-[11px] md:text-xs font-normal tracking-[0.28em] uppercase text-[#C4B29E]"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
-                FULL STACK DEVELOPER <span className="text-[#8C6D4F] mx-1">•</span> UI/UX DESIGNER <span className="text-[#8C6D4F] mx-1">•</span> DATA SCIENCE
+                FULL STACK DEVELOPER <span className="text-[#8C6D4F] mx-1">•</span> REACT DEVELOPER <span className="text-[#8C6D4F] mx-1">•</span> MERN & AI INTEGRATIONS
               </p>
             </motion.div>
 
@@ -205,9 +207,9 @@ export const HeroSection: React.FC = () => {
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               <p>
-                I turn bold ideas into seamless digital experiences.
+                Full Stack Developer with hands-on experience building 8+ production web applications.
                 <br />
-                Where frontend meets powerful backend, and code transforms vision into impact.
+                Crafting scalable React.js architectures, high-performance Node.js APIs, and intelligent user experiences.
               </p>
             </motion.div>
 
@@ -234,7 +236,7 @@ export const HeroSection: React.FC = () => {
 
               {/* Download Resume Button */}
               <motion.a
-                href="/resume.pdf"
+                href="https://github.com/sukumar38140/My_portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 onMouseEnter={() => setIsHovered(true)}
@@ -242,9 +244,9 @@ export const HeroSection: React.FC = () => {
                 whileHover={{ scale: 1.02 }}
                 className="relative inline-flex items-center space-x-2 px-6 sm:px-7 py-3.5 border border-[#8C6D4F]/40 hover:border-[#8C6D4F] text-[#BFA895] hover:text-[#EAD8C7] text-[11px] font-medium tracking-[0.24em] uppercase transition-all duration-300"
               >
-                <span>DOWNLOAD RESUME</span>
+                <span>VIEW PORTFOLIO REPO</span>
                 <span className="transform transition-transform duration-300 group-hover:translate-y-0.5 text-xs">
-                  ↓
+                  ↗
                 </span>
               </motion.a>
             </motion.div>
@@ -282,7 +284,7 @@ export const HeroSection: React.FC = () => {
                 letterSpacing: '0.04em',
               }}
             >
-              Lohitha
+              Kumar Saatharla
             </div>
           </motion.div>
         </div>

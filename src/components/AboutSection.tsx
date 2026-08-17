@@ -134,7 +134,7 @@ export const AboutSection: React.FC = () => {
               className="text-xs sm:text-sm md:text-[14.5px] font-light text-[#B3A497] leading-[1.85] tracking-wide mb-10 max-w-xl"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
-              I'm <span className="text-[#F3DBB3] font-medium">Damisetti Shamya Lohitha</span>, a Full Stack Developer and Data Science student specializing in building scalable web architectures, AI-integrated platforms, and refined digital experiences. With a strong algorithmic foundation and a focus on clean engineering, I turn complex requirements into impactful products.
+              I'm <span className="text-[#F3DBB3] font-medium">Saatharla Kumar</span>, a Full Stack & React Developer based in Madanapalle, India. Currently working as a Software Engineer at Alvision Media, I own end-to-end delivery of client platforms across construction, retail, pet commerce, and education domains. With hands-on experience in MERN stack architectures, AI Hugging Face integrations, and Open Source contributions (GirlScript Summer of Code 2025), I transform complex requirements into fast, scalable applications.
             </motion.p>
 
             {/* Concise 4-Item Achievement Metrics Grid */}
@@ -148,10 +148,10 @@ export const AboutSection: React.FC = () => {
                   className="text-3xl sm:text-4xl font-light text-[#F4EBE2] tracking-tight"
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                 >
-                  1200+
+                  8+
                 </span>
                 <span className="text-[10px] font-medium tracking-[0.22em] uppercase text-[#A8988B] mt-0.5">
-                  DSA Solved
+                  Deployed Apps
                 </span>
               </div>
 
@@ -161,10 +161,10 @@ export const AboutSection: React.FC = () => {
                   className="text-3xl sm:text-4xl font-light text-[#D4AF37] tracking-tight"
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                 >
-                  9.07
+                  40%
                 </span>
                 <span className="text-[10px] font-medium tracking-[0.22em] uppercase text-[#A8988B] mt-0.5">
-                  B.Tech CGPA
+                  AI Latency Cut
                 </span>
               </div>
 
@@ -174,10 +174,10 @@ export const AboutSection: React.FC = () => {
                   className="text-3xl sm:text-4xl font-light text-[#F4EBE2] tracking-tight"
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                 >
-                  40+
+                  100%
                 </span>
                 <span className="text-[10px] font-medium tracking-[0.22em] uppercase text-[#A8988B] mt-0.5">
-                  Industry-Grade Projects
+                  On-Time Delivery
                 </span>
               </div>
 
@@ -187,10 +187,10 @@ export const AboutSection: React.FC = () => {
                   className="text-3xl sm:text-4xl font-light text-[#D4AF37] tracking-tight"
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                 >
-                  Top 100
+                  2x
                 </span>
                 <span className="text-[10px] font-medium tracking-[0.22em] uppercase text-[#A8988B] mt-0.5">
-                  Myntra Hackerramp
+                  1st Prize Winner
                 </span>
               </div>
             </motion.div>
@@ -259,12 +259,12 @@ export const AboutSection: React.FC = () => {
               </div>
 
               {/* Portrait Image Canvas */}
-              <div className="relative overflow-hidden w-full max-w-[390px] aspect-[4/5] bg-black rounded-sm">
+              <div className="relative overflow-hidden w-full max-w-[390px] aspect-[4/5] bg-gradient-to-b from-[#1A1510] via-[#0F0C09] to-[#050403] rounded-sm flex items-center justify-center">
                 {/* Main Portrait */}
                 <img
                   src={aboutImg}
-                  alt="Damisetti Shamya Lohitha"
-                  className="w-full h-full object-cover object-top filter brightness-[0.94] contrast-[1.06] saturate-[1.02] group-hover:brightness-105 group-hover:contrast-[1.12] transition-all duration-700 ease-out"
+                  alt="Saatharla Kumar"
+                  className="w-full h-full object-cover object-top filter brightness-[0.98] contrast-[1.05] group-hover:brightness-105 group-hover:scale-105 transition-all duration-700 ease-out"
                 />
 
                 {/* Mouse-Tracked Holographic Glass Spotlight Sweep */}
@@ -285,7 +285,7 @@ export const AboutSection: React.FC = () => {
                     className="text-3xl text-[#F2D8A7] drop-shadow-[0_0_12px_rgba(242,216,167,0.5)] transition-colors duration-300 group-hover:text-white"
                     style={{ fontFamily: "'Herr Von Muellerhoff', cursive" }}
                   >
-                    Lohitha
+                    Kumar
                   </span>
                 </div>
               </div>

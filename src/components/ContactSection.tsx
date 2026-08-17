@@ -63,11 +63,54 @@ export const ContactSection: React.FC = () => {
               </motion.div>
 
               <p
-                className="text-xs sm:text-[13px] font-light text-[#A8988B] leading-relaxed max-w-md"
+                className="text-xs sm:text-[13px] font-light text-[#A8988B] leading-relaxed max-w-md mb-8"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
-                Have an ambitious system to architect, an engineering opportunity, or a collaborative inquiry? Send a direct dispatch below.
+                Have an ambitious web platform to architect, a full-stack engineering role, or a project opportunity? Get in touch directly via dispatch or social channels.
               </p>
+
+              {/* Direct Contact Links Grid */}
+              <div className="space-y-3 pt-2" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+                <a
+                  href="mailto:saatharlakumar@gmail.com"
+                  className="flex items-center space-x-3 text-xs text-[#EAD8C7] hover:text-[#D4AF37] transition-colors group"
+                >
+                  <span className="text-[10px] font-mono text-[#D4AF37]">// EMAIL:</span>
+                  <span>saatharlakumar@gmail.com</span>
+                </a>
+
+                <a
+                  href="tel:+918978943122"
+                  className="flex items-center space-x-3 text-xs text-[#EAD8C7] hover:text-[#D4AF37] transition-colors group"
+                >
+                  <span className="text-[10px] font-mono text-[#D4AF37]">// PHONE:</span>
+                  <span>+91 89789 43122</span>
+                </a>
+
+                <div className="flex items-center space-x-3 text-xs text-[#A8988B]">
+                  <span className="text-[10px] font-mono text-[#D4AF37]">// LOCATION:</span>
+                  <span>Madanapalle, India</span>
+                </div>
+
+                <div className="flex items-center space-x-4 pt-4">
+                  <a
+                    href="https://github.com/sukumar38140"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3.5 py-1.5 border border-[#8C6D4F]/40 bg-[#120F0C] hover:border-[#D4AF37] text-[10px] font-mono tracking-wider text-[#EAD8C7] transition-colors"
+                  >
+                    GITHUB ↗
+                  </a>
+                  <a
+                    href="https://linkedin.com/in/saatharlakumar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3.5 py-1.5 border border-[#8C6D4F]/40 bg-[#120F0C] hover:border-[#D4AF37] text-[10px] font-mono tracking-wider text-[#EAD8C7] transition-colors"
+                  >
+                    LINKEDIN ↗
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -170,7 +213,7 @@ export const ContactSection: React.FC = () => {
             PORTFOLIO // EDITION 2026
           </span>
           <span className="text-[10px] font-mono text-[#8C6D4F]">
-            © {new Date().getFullYear()} • ENGINEERED WITH PRECISION
+            © {new Date().getFullYear()} SAATHARLA KUMAR • ENGINEERED WITH PRECISION
           </span>
         </div>
 
